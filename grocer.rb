@@ -19,7 +19,7 @@ def apply_coupons(cart, coupons)
     item = coupon_hash[:item]
     
     if !hash[item].nil? && hash[item][:count] >= coupon_hash[:num]
-      item_w_coupon = "#{item} W/ COUPON"
+      item_w_coupon = "#{item} W/ COUPON" => 
   end 
   
 end
