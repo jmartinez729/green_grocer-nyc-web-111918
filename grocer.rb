@@ -17,7 +17,7 @@ end
 def apply_coupons(cart, coupons)
   coupons.each do |coupon_hash|
     
-    if !hash[item].nil? && hash[:]
+    if !hash[item].nil? && hash[item][:coupon]
   end 
   
 end
