@@ -63,7 +63,3 @@ def checkout(items, coupons)
   
   total > 100 ? total * 0.9 : total
 end
-
-def checkout(cart, coupons)
-  # code here
-end
