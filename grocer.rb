@@ -17,6 +17,7 @@ end
 def apply_coupons(cart, coupons)
   coupons.each do |coupon_hash|
     
+    if !hash
   end 
   
 end
